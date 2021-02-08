@@ -1,10 +1,9 @@
-import "./styles.css";
-console.log("aaaaaaaaaaa");
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+// var val2 = "imai";
+// console.log(val2);
+// val2 = "yasuo";
+// console.log(val2);
+
+const val3 = ["dog", "cat", "pig"];
+val3[0] = "human";
+val3.push("imai");
+console.log(val3);
